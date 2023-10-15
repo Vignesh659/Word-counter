@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Count Tool</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Word Counter</h1>
+        <p>A word counter tool is a handy application that counts the number of words in a text, aiding in precise content analysis and efficient writing.</p>
+    </div>
+    <div class="container">
+        <div class="textarea">
+            <textarea id="inputText" rows="10" placeholder="Enter your text here..."></textarea>
+        </div>
+        <h2 class="features-heading">Basic Word Count Statistics</h2>
+        <div class="features">
+            <div class="box">
+                <p id="wordCount">0</p>
+                <h2>Word Count</h2>
+            </div>
+            <div class="box">
+                <p id="charCountWithSpaces">0</p>
+                <h2>Character Count (with spaces)</h2>
+            </div>
+            <div class="box">
+                <p id="charCountWithoutSpaces">0</p>
+                <h2>Character Count (without spaces)</h2>
+            </div>
+            <div class="box">
+                <p id="sentenceCount">0</p>
+                <h2>Sentences</h2>
+            </div>
+            <div class="box">
+                <p id="paragraphCount">0</p>
+                <h2>Paragraph Count</h2>
+            </div>
+            <div class="box">
+                <p id="syllableCount">0</p>
+                <h2>Syllables</h2>
+            </div>
+            <div class="box">
+                <p id="syllablesPerWord">0</p>
+                <h2>Syllables per word</h2>
+            </div>            
+            <div class="box">
+                <p id="readTime">0</p>
+                <h2>Read Time (minutes)</h2>
+            </div>
+        </div>
+        <h2 class="features-heading">Advanced Word Count Statistics</h2>
+<div class="features">
+    <div class="box">
+        <p id="avgWordLength">0</p>
+        <h2>Average Word Length (char)</h2>
+    </div>
+    <div class="box">
+        <p id="avgSentenceLength">0</p>
+        <h2>Average Sentence Length (word)</h2>
+    </div>
+    <div class="box">
+        <p id="uniqueWords">0</p>
+        <h2>Unique Words</h2>
+    </div>
+    <div class="box">
+        <p id="monosyllabicWords">0</p>
+        <h2>Monosyllabic Words (1 syllable)</h2>
+    </div>
+    <div class="box">
+        <p id="polysyllabicWords">0</p>
+        <h2>Polysyllabic Words (≥3 syllables)</h2>
+    </div>
+    <div class="box">
+        <p id="readabilityLevel">0</p>
+        <h2>Readability Level (Difficult Words)</h2>
+    </div>
+    <div class="box">
+        <p id="shortWords">0</p>
+        <h2>Short Words (<=4 characters)</h2>
+    </div>
+    <div class="box">
+        <p id="longWords">0</p>
+        <h2>Long Words (>=7 characters)</h2>
+    </div>
+</div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
